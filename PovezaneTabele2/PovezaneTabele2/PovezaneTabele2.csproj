@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A728047-E470-4880-A7FA-198389704445}</ProjectGuid>
+    <ProjectGuid>{A12DDD9A-1C39-49DB-B500-A6B304E64781}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EnaTabela2</RootNamespace>
-    <AssemblyName>EnaTabela2</AssemblyName>
+    <RootNamespace>PovezaneTabele2</RootNamespace>
+    <AssemblyName>PovezaneTabele2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,10 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="NorthwindDataSet.Designer.cs">
+    <Compile Include="izposojaCDjevDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
+      <DependentUpon>izposojaCDjevDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,16 +71,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="NorthwindDataSet.xsc">
-      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
+    <None Include="izposojaCDjevDataSet.xsc">
+      <DependentUpon>izposojaCDjevDataSet.xsd</DependentUpon>
     </None>
-    <None Include="NorthwindDataSet.xsd">
+    <None Include="izposojaCDjevDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>NorthwindDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>izposojaCDjevDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="NorthwindDataSet.xss">
-      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
+    <None Include="izposojaCDjevDataSet.xss">
+      <DependentUpon>izposojaCDjevDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
