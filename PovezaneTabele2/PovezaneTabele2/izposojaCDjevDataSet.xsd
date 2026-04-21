@@ -92,39 +92,39 @@ ON i.SIFRA_CDJA = c.SIFRA</CommandText>
   <xs:element name="izposojaCDjevDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="izposojaCDjevDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="izposojaCDjevDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="DIJAKI" msprop:Generator_RowEvHandlerName="DIJAKIRowChangeEventHandler" msprop:Generator_RowDeletedName="DIJAKIRowDeleted" msprop:Generator_RowDeletingName="DIJAKIRowDeleting" msprop:Generator_RowEvArgName="DIJAKIRowChangeEvent" msprop:Generator_TablePropName="DIJAKI" msprop:Generator_RowChangedName="DIJAKIRowChanged" msprop:Generator_RowChangingName="DIJAKIRowChanging" msprop:Generator_TableClassName="DIJAKIDataTable" msprop:Generator_RowClassName="DIJAKIRow" msprop:Generator_TableVarName="tableDIJAKI" msprop:Generator_UserTableName="DIJAKI">
+        <xs:element name="DIJAKI" msprop:Generator_RowClassName="DIJAKIRow" msprop:Generator_RowEvHandlerName="DIJAKIRowChangeEventHandler" msprop:Generator_RowDeletedName="DIJAKIRowDeleted" msprop:Generator_RowDeletingName="DIJAKIRowDeleting" msprop:Generator_RowEvArgName="DIJAKIRowChangeEvent" msprop:Generator_TablePropName="DIJAKI" msprop:Generator_RowChangedName="DIJAKIRowChanged" msprop:Generator_UserTableName="DIJAKI" msprop:Generator_RowChangingName="DIJAKIRowChanging" msprop:Generator_TableClassName="DIJAKIDataTable" msprop:Generator_TableVarName="tableDIJAKI">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="SIFRA" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="SIFRA" msprop:Generator_ColumnPropNameInTable="SIFRAColumn" msprop:Generator_ColumnVarNameInTable="columnSIFRA" msprop:Generator_UserColumnName="SIFRA" type="xs:int" />
-              <xs:element name="IME" msprop:Generator_ColumnPropNameInRow="IME" msprop:Generator_ColumnPropNameInTable="IMEColumn" msprop:Generator_ColumnVarNameInTable="columnIME" msprop:Generator_UserColumnName="IME">
+              <xs:element name="SIFRA" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="SIFRA" msprop:Generator_ColumnPropNameInTable="SIFRAColumn" msprop:Generator_ColumnPropNameInRow="SIFRA" msprop:Generator_ColumnVarNameInTable="columnSIFRA" type="xs:int" />
+              <xs:element name="IME" msprop:Generator_UserColumnName="IME" msprop:Generator_ColumnPropNameInTable="IMEColumn" msprop:Generator_ColumnPropNameInRow="IME" msprop:Generator_ColumnVarNameInTable="columnIME">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="20" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="PRIIMEK" msprop:Generator_ColumnPropNameInRow="PRIIMEK" msprop:Generator_ColumnPropNameInTable="PRIIMEKColumn" msprop:Generator_ColumnVarNameInTable="columnPRIIMEK" msprop:Generator_UserColumnName="PRIIMEK">
+              <xs:element name="PRIIMEK" msprop:Generator_UserColumnName="PRIIMEK" msprop:Generator_ColumnPropNameInTable="PRIIMEKColumn" msprop:Generator_ColumnPropNameInRow="PRIIMEK" msprop:Generator_ColumnVarNameInTable="columnPRIIMEK">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="20" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="NASLOV" msprop:Generator_ColumnPropNameInRow="NASLOV" msprop:Generator_ColumnPropNameInTable="NASLOVColumn" msprop:Generator_ColumnVarNameInTable="columnNASLOV" msprop:Generator_UserColumnName="NASLOV">
+              <xs:element name="NASLOV" msprop:Generator_UserColumnName="NASLOV" msprop:Generator_ColumnPropNameInTable="NASLOVColumn" msprop:Generator_ColumnPropNameInRow="NASLOV" msprop:Generator_ColumnVarNameInTable="columnNASLOV">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="20" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="POSTA" msprop:Generator_ColumnPropNameInRow="POSTA" msprop:Generator_ColumnPropNameInTable="POSTAColumn" msprop:Generator_ColumnVarNameInTable="columnPOSTA" msprop:Generator_UserColumnName="POSTA">
+              <xs:element name="POSTA" msprop:Generator_UserColumnName="POSTA" msprop:Generator_ColumnPropNameInTable="POSTAColumn" msprop:Generator_ColumnPropNameInRow="POSTA" msprop:Generator_ColumnVarNameInTable="columnPOSTA">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="4" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="KRAJ" msprop:Generator_ColumnPropNameInRow="KRAJ" msprop:Generator_ColumnPropNameInTable="KRAJColumn" msprop:Generator_ColumnVarNameInTable="columnKRAJ" msprop:Generator_UserColumnName="KRAJ">
+              <xs:element name="KRAJ" msprop:Generator_UserColumnName="KRAJ" msprop:Generator_ColumnPropNameInTable="KRAJColumn" msprop:Generator_ColumnPropNameInRow="KRAJ" msprop:Generator_ColumnVarNameInTable="columnKRAJ">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="20" />
@@ -134,33 +134,33 @@ ON i.SIFRA_CDJA = c.SIFRA</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="IZPOSOJA" msprop:Generator_RowEvHandlerName="IZPOSOJARowChangeEventHandler" msprop:Generator_RowDeletedName="IZPOSOJARowDeleted" msprop:Generator_RowDeletingName="IZPOSOJARowDeleting" msprop:Generator_RowEvArgName="IZPOSOJARowChangeEvent" msprop:Generator_TablePropName="IZPOSOJA" msprop:Generator_RowChangedName="IZPOSOJARowChanged" msprop:Generator_RowChangingName="IZPOSOJARowChanging" msprop:Generator_TableClassName="IZPOSOJADataTable" msprop:Generator_RowClassName="IZPOSOJARow" msprop:Generator_TableVarName="tableIZPOSOJA" msprop:Generator_UserTableName="IZPOSOJA">
+        <xs:element name="IZPOSOJA" msprop:Generator_RowClassName="IZPOSOJARow" msprop:Generator_RowEvHandlerName="IZPOSOJARowChangeEventHandler" msprop:Generator_RowDeletedName="IZPOSOJARowDeleted" msprop:Generator_RowDeletingName="IZPOSOJARowDeleting" msprop:Generator_RowEvArgName="IZPOSOJARowChangeEvent" msprop:Generator_TablePropName="IZPOSOJA" msprop:Generator_RowChangedName="IZPOSOJARowChanged" msprop:Generator_UserTableName="IZPOSOJA" msprop:Generator_RowChangingName="IZPOSOJARowChanging" msprop:Generator_TableClassName="IZPOSOJADataTable" msprop:Generator_TableVarName="tableIZPOSOJA">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="SIFRA_DIJAKA" msprop:Generator_ColumnPropNameInRow="SIFRA_DIJAKA" msprop:Generator_ColumnPropNameInTable="SIFRA_DIJAKAColumn" msprop:Generator_ColumnVarNameInTable="columnSIFRA_DIJAKA" msprop:Generator_UserColumnName="SIFRA_DIJAKA" type="xs:int" />
-              <xs:element name="SIFRA_CDJA" msprop:Generator_ColumnPropNameInRow="SIFRA_CDJA" msprop:Generator_ColumnPropNameInTable="SIFRA_CDJAColumn" msprop:Generator_ColumnVarNameInTable="columnSIFRA_CDJA" msprop:Generator_UserColumnName="SIFRA_CDJA">
+              <xs:element name="SIFRA_DIJAKA" msprop:Generator_UserColumnName="SIFRA_DIJAKA" msprop:Generator_ColumnPropNameInTable="SIFRA_DIJAKAColumn" msprop:Generator_ColumnPropNameInRow="SIFRA_DIJAKA" msprop:Generator_ColumnVarNameInTable="columnSIFRA_DIJAKA" type="xs:int" />
+              <xs:element name="SIFRA_CDJA" msprop:Generator_UserColumnName="SIFRA_CDJA" msprop:Generator_ColumnPropNameInTable="SIFRA_CDJAColumn" msprop:Generator_ColumnPropNameInRow="SIFRA_CDJA" msprop:Generator_ColumnVarNameInTable="columnSIFRA_CDJA">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="6" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="NASLOV" msprop:Generator_ColumnPropNameInRow="NASLOV" msprop:Generator_ColumnPropNameInTable="NASLOVColumn" msprop:Generator_ColumnVarNameInTable="columnNASLOV" msprop:Generator_UserColumnName="NASLOV">
+              <xs:element name="NASLOV" msprop:Generator_UserColumnName="NASLOV" msprop:Generator_ColumnPropNameInTable="NASLOVColumn" msprop:Generator_ColumnPropNameInRow="NASLOV" msprop:Generator_ColumnVarNameInTable="columnNASLOV">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="30" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="IZVAJALEC" msprop:Generator_ColumnPropNameInRow="IZVAJALEC" msprop:Generator_ColumnPropNameInTable="IZVAJALECColumn" msprop:Generator_ColumnVarNameInTable="columnIZVAJALEC" msprop:Generator_UserColumnName="IZVAJALEC">
+              <xs:element name="IZVAJALEC" msprop:Generator_UserColumnName="IZVAJALEC" msprop:Generator_ColumnPropNameInTable="IZVAJALECColumn" msprop:Generator_ColumnPropNameInRow="IZVAJALEC" msprop:Generator_ColumnVarNameInTable="columnIZVAJALEC">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="30" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="DATUM_IZPOSOJE" msprop:Generator_ColumnPropNameInRow="DATUM_IZPOSOJE" msprop:Generator_ColumnPropNameInTable="DATUM_IZPOSOJEColumn" msprop:Generator_ColumnVarNameInTable="columnDATUM_IZPOSOJE" msprop:Generator_UserColumnName="DATUM_IZPOSOJE" type="xs:dateTime" />
-              <xs:element name="DATUM_VRNITVE" msprop:Generator_ColumnPropNameInRow="DATUM_VRNITVE" msprop:Generator_ColumnPropNameInTable="DATUM_VRNITVEColumn" msprop:Generator_ColumnVarNameInTable="columnDATUM_VRNITVE" msprop:Generator_UserColumnName="DATUM_VRNITVE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATUM_IZPOSOJE" msprop:Generator_UserColumnName="DATUM_IZPOSOJE" msprop:Generator_ColumnPropNameInTable="DATUM_IZPOSOJEColumn" msprop:Generator_ColumnPropNameInRow="DATUM_IZPOSOJE" msprop:Generator_ColumnVarNameInTable="columnDATUM_IZPOSOJE" type="xs:dateTime" />
+              <xs:element name="DATUM_VRNITVE" msprop:Generator_UserColumnName="DATUM_VRNITVE" msprop:Generator_ColumnPropNameInTable="DATUM_VRNITVEColumn" msprop:Generator_ColumnPropNameInRow="DATUM_VRNITVE" msprop:Generator_ColumnVarNameInTable="columnDATUM_VRNITVE" type="xs:dateTime" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
